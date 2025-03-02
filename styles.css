@@ -1,0 +1,295 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Global body styles */
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #f4f1ea;
+    color: #3e3e3e;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    box-shadow: none;
+  }
+  .logo {
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+  .navbar nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 1.5rem;
+    font-weight: 400;
+  }
+  .navbar nav a.active {
+    color: #c45c66;
+  }
+  .navbar nav a:hover {
+    color: #c45c66;
+  }
+  
+  /* Hero section */
+  .hero {
+    min-height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem 2rem;
+  }
+  .hero-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  .hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  
+  /* Sections */
+  .section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .section-title h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+  .section-title p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Work With Me Section */
+  .work-with-me {
+    background-color: #f4f1ea;
+    color: #3e3e3e;
+  }
+  .work-with-me h2 {
+    font-size: 2.5rem;
+    color: #3e3e3e;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+  }
+  .work-with-me > p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .work-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .work-box {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    flex: 1 1 300px;
+    max-width: 400px;
+    margin-bottom: 2rem;
+  }
+  .work-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  .work-box h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: #3e3e3e;
+    font-weight: 400;
+  }
+  .work-box p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  .work-box p strong {
+    color: #444;
+    font-weight: 600;
+  }
+  .work-with-me .cta {
+    margin-top: 2rem;
+    text-align: left;
+  }
+  .work-with-me .cta p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #444;
+  }
+  .work-with-me .inline-link {
+    color: #b07d62; /* Adjust to the exact color you prefer */
+    text-decoration: none;
+    font-weight: 400;
+  }
+  .work-with-me .inline-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* About Me Section */
+  .about-me {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+  }
+  .about-me h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  .about-me p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    display: flex;
+    align-items: flex-start;
+    background-color: #d8a48f;
+    color: #fff;
+    padding: 4rem 2rem;
+  }
+  .contact-content {
+    flex: 1;
+    max-width: 600px;
+    margin-right: 2rem;
+  }
+  .contact-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+  .contact-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .form-row label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .name-row {
+    display: flex;
+    gap: 1rem;
+  }
+  .name-row input {
+    flex: 1;
+  }
+  /* Fields */
+  .contact-form input,
+  .contact-form textarea {
+    border: 1px solid #3e3e3e;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* --- ADDED: Make Email & Message fields match the full form width --- */
+  .form-row input[type="email"],
+  .form-row textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  /* -------------------------------------------------------------- */
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #666;
+  }
+  /* Button */
+  .submit-btn {
+    background-color: #fff;
+    color: #3e3e3e;
+    border: none;
+    border-radius: 25px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  .submit-btn:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f1ea;
+    padding: 2rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+  }
+  .footer-left {
+    flex: 1;
+  }
+  .footer-right {
+    display: flex;
+    gap: 2rem;
+  }
+  .footer-section h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .footer-section p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  footer a {
+    color: #3e3e3e;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
