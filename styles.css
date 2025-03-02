@@ -40,11 +40,9 @@
   
   /* Hero section */
   .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    background-color: #f5f5f5;
+    background-color: #f4f1ea; /* Match the background color of the rest of the homepage */
+    padding: 4rem 2rem;
+    text-align: center;
   }
 
   .hero-photo {
@@ -54,36 +52,32 @@
     margin-right: 2rem;
   }
 
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .hero-text {
     max-width: 600px;
+    text-align: center;
   }
 
   .hero-text h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+    color: #3e3e3e;
+    font-weight: 400;
+    line-height: 1.2;
     margin-bottom: 1rem;
   }
 
   .hero-text p {
     font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .hero-content {
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-  }
-  .hero-content h1 {
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
-  .hero-content p {
-    font-size: 1.2rem;
+    color: #666;
     line-height: 1.5;
   }
-  
   
   /* Sections */
   .section {
