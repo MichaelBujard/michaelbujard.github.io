@@ -280,6 +280,75 @@
   .submit-btn:hover {
     background-color: #f2f2f2;
   }
+
+
+  /* Profile Photo Section */
+  .profile-photo {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .profile-photo-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+/* Portfolio Section */
+.portfolio {
+  background-color: #f4f1ea;
+  color: #3e3e3e;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio h2 {
+  font-size: 2.5rem;
+  color: #3e3e3e;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.portfolio > p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.portfolio-item {
+  flex: 1 1 calc(33.333% - 2rem);
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.portfolio-item h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.portfolio-item p {
+  margin: 0.5rem 0;
+}
   
   /* Footer */
   footer {
@@ -313,19 +382,4 @@
   }
   footer a:hover {
     text-decoration: underline;
-  }
-
-  /* Profile Photo Section */
-  .profile-photo {
-    text-align: center;
-    margin: 2rem 0;
-  }
-  
-  .profile-photo-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    border: 2px solid #ccc;
-    padding: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
