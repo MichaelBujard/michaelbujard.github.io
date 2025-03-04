@@ -17,7 +17,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 1rem 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1.2rem 2rem;
     font-size: 1rem;
     box-shadow: none;
   }
@@ -26,13 +27,15 @@
     font-size: 1.3rem;
   }
   .navbar nav a {
+    letter-spacing: 0.5px;
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
     text-decoration: none;
     color: #333;
     margin-left: 1.5rem;
     font-weight: 400;
   }
   .navbar nav a.active {
-    color: #c45c66;
+    color: #b35a5a; /* Slightly refined red to look professional */
   }
   .navbar nav a:hover {
     color: #c45c66;
@@ -98,33 +101,65 @@
     font-size: 1rem;
     color: #666;
   }
+
+  /* Ideal Client Section */
+  .ideal-client-section {
+    background-color: #f7f4ef; /* Keep existing soft transition color */
+    padding: 2rem 2rem; /* Keep reduced padding */
+    text-align: left;
+    max-width: 800px;
+    margin: 2rem auto; /* Add slight bottom margin to improve flow */
+    margin-bottom: 1.5rem; /* Reduce gap before Services */
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px; /* Adds slight curvature for a refined look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle depth */
+  }
+
+  .ideal-client-section h2 {
+    font-size: 1.8rem; /* Keep it readable but not overpowering */
+    margin-bottom: 0.75rem; /* Tighter spacing */
+    color: #3e3e3e;
+    font-weight: 500;
+  }
+
+  .ideal-client-section p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
   
-  /* Work With Me Section */
-  .work-with-me {
+  /* Services Section */
+  .services {
+    border-top: 1px solid #ddd; /* Subtle separator to improve flow */
+    padding-top: 3rem; /* Adjust padding for balance */
     background-color: #f4f1ea;
     color: #3e3e3e;
   }
-  .work-with-me h2 {
+  .services h2 {
     font-size: 2.5rem;
     color: #3e3e3e;
     text-align: left;
     margin-bottom: 0.5rem;
     font-weight: 400;
   }
-  .work-with-me > p {
+  .services > p {
     font-size: 1rem;
     color: #666;
     margin-bottom: 2rem;
     line-height: 1.6;
     text-align: left;
   }
-  .work-grid {
+  .services-grid {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  .work-box {
+  .service-box {
     background: none;
     border: none;
     box-shadow: none;
@@ -133,43 +168,43 @@
     max-width: 400px;
     margin-bottom: 2rem;
   }
-  .work-box img {
+  .service-box img {
     width: 100%;
     height: auto;
     border-radius: 4px;
     margin-bottom: 1rem;
   }
-  .work-box h3 {
+  .service-box h3 {
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
     color: #3e3e3e;
     font-weight: 400;
   }
-  .work-box p {
+  .service-box p {
     font-size: 0.95rem;
     line-height: 1.5;
     color: #555;
     margin-bottom: 1rem;
   }
-  .work-box p strong {
+  .service-box p strong {
     color: #444;
     font-weight: 600;
   }
-  .work-with-me .cta {
+  .services .cta {
     margin-top: 2rem;
     text-align: left;
   }
-  .work-with-me .cta p {
+  .services .cta p {
     margin-bottom: 0.5rem;
     font-size: 1rem;
     color: #444;
   }
-  .work-with-me .inline-link {
+  .services .inline-link {
     color: #b07d62; /* Adjust to the exact color you prefer */
     text-decoration: none;
     font-weight: 400;
   }
-  .work-with-me .inline-link:hover {
+  .services .inline-link:hover {
     text-decoration: underline;
   }
   
