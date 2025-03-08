@@ -109,7 +109,7 @@
     text-align: left;
     max-width: 800px;
     margin: 2rem auto; /* Add slight bottom margin to improve flow */
-    margin-bottom: 1.5rem; /* Reduce gap before Services */
+    margin-bottom: 1.5rem; /* Reduce gap before Work-With-Me (Services) */
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     border-radius: 8px; /* Adds slight curvature for a refined look */
@@ -132,34 +132,34 @@
   }
 
   
-  /* Services Section */
-  .services {
+  /* Work-With-Me (Services) Section */
+  .work-with-me {
     border-top: 1px solid #ddd; /* Subtle separator to improve flow */
     padding-top: 3rem; /* Adjust padding for balance */
     background-color: #f4f1ea;
     color: #3e3e3e;
   }
-  .services h2 {
+  .work-with-me h2 {
     font-size: 2.5rem;
     color: #3e3e3e;
     text-align: left;
     margin-bottom: 0.5rem;
     font-weight: 400;
   }
-  .services > p {
+  .work-with-me > p {
     font-size: 1rem;
     color: #666;
     margin-bottom: 2rem;
     line-height: 1.6;
     text-align: left;
   }
-  .services-grid {
+  .work-grid {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  .service-box {
+  .work-box {
     background: none;
     border: none;
     box-shadow: none;
@@ -168,43 +168,43 @@
     max-width: 400px;
     margin-bottom: 2rem;
   }
-  .service-box img {
+  .work-box img {
     width: 100%;
     height: auto;
     border-radius: 4px;
     margin-bottom: 1rem;
   }
-  .service-box h3 {
+  .work-box h3 {
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
     color: #3e3e3e;
     font-weight: 400;
   }
-  .service-box p {
+  .work-box p {
     font-size: 0.95rem;
     line-height: 1.5;
     color: #555;
     margin-bottom: 1rem;
   }
-  .service-box p strong {
+  .work-box p strong {
     color: #444;
     font-weight: 600;
   }
-  .services .cta {
+  .work-with-me .cta {
     margin-top: 2rem;
     text-align: left;
   }
-  .services .cta p {
+  .work-with-me .cta p {
     margin-bottom: 0.5rem;
     font-size: 1rem;
     color: #444;
   }
-  .services .inline-link {
+  .work-with-me .inline-link {
     color: #b07d62; /* Adjust to the exact color you prefer */
     text-decoration: none;
     font-weight: 400;
   }
-  .services .inline-link:hover {
+  .work-with-me .inline-link:hover {
     text-decoration: underline;
   }
   
@@ -416,11 +416,11 @@ footer a:hover {
 /* Media Queries for Responsive Design */
 @media (max-width: 1024px) {
   /* Tablet and smaller desktop */
-  .services-grid {
+  .work-grid {
     gap: 1.5rem;
   }
   
-  .service-box {
+  .work-box {
     flex: 1 1 calc(50% - 1.5rem);
     max-width: none;
   }
@@ -463,11 +463,11 @@ footer a:hover {
     padding: 2rem 1rem;
   }
   
-  .services h2 {
+  .work-with-me h2 {
     font-size: 2rem;
   }
   
-  .service-box {
+  .work-box {
     flex: 1 1 100%;
   }
 
@@ -525,15 +525,15 @@ footer a:hover {
     font-size: 1rem;
   }
   
-  .services h2 {
+  .work-with-me h2 {
     font-size: 1.8rem;
   }
   
-  .service-box h3 {
+  .work-box h3 {
     font-size: 1.2rem;
   }
   
-  .service-box p {
+  .work-box p {
     font-size: 0.9rem;
   }
 }
